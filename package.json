@@ -1,0 +1,18 @@
+{
+  "name": "fake-intro-to-webdev-app",
+  "version": "1.0.0",
+  "description": "last exercise from intro-to-webdev-app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "bellchet58",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.6.0",
+    "body-parser": "~1.4.3"
+  }
+}

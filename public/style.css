@@ -1,0 +1,63 @@
+/* 
+* @Author: bellchet58
+* @Date:   2016-07-31 19:45:04
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-07-31 21:09:33
+*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+.header-tweeter{
+    width: 100%;
+    background-color: #333;
+    font-weight: bold;
+    color: white;
+    padding: 50px 10%;
+    font-size: 2em;
+
+}
+.tweet-group{
+    border: 0.15em solid #333;
+    margin: 20px 10%;
+    border-radius: 10px;
+    padding: 30px;
+    overflow: hidden;
+}
+.tweet-group time{
+    font-style: italic;
+    font-size: 50%;
+}
+.tweet-input{
+    width: 100%;
+    border: 2px solid lightgray;
+    padding-left: 5px;
+    height: 32px;
+    border-radius: 5px;
+}
+.tweet-input:focus{
+    border: 2px solid cyan;
+    outline: none;
+}
+.tweet-btn{
+    background-color: #33cc00;
+    color: white;
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    float: right;
+    margin-top: 10px;
+}
+.tweet-btn:hover{
+    background-color: #4DE61A;
+}
+.tweet-btn:active{
+    background-color: #009900;
+}
