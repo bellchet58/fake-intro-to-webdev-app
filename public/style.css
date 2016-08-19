@@ -21,6 +21,7 @@ body{
     color: white;
     padding: 50px 10%;
     font-size: 2em;
+    overflow: hidden;
 
 }
 .tweet-group{
@@ -60,4 +61,9 @@ body{
 }
 .tweet-btn:active{
     background-color: #009900;
+}
+#header > img{
+    width: 200px;
+    float: right;
+    border-radius: 50%;
 }
